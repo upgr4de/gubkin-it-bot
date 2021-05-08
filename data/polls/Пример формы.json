@@ -1,0 +1,87 @@
+{
+    "metadata": {
+        "editUrl": "https://docs.google.com/forms/d/1TfDoYf8EuLWPWvHZHkegaKEUqkAgeYzB3CGeWQUVT68/edit",
+        "editorEmails": [
+            "iflash926@gmail.com"
+        ],
+        "count": 6,
+        "description": "Описание формы",
+        "publishedUrl": "https://docs.google.com/forms/d/e/1FAIpQLScL34jbg-oq6eulUcf00qCj8jJZv6C-leoPZ7FoWcZAVJMhfA/viewform",
+        "id": "1TfDoYf8EuLWPWvHZHkegaKEUqkAgeYzB3CGeWQUVT68",
+        "customClosedFormMessage": "",
+        "title": "Пример формы",
+        "confirmationMessage": ""
+    },
+    "items": [
+        {
+            "helpText": "Описание параграфа",
+            "index": 0,
+            "id": 1235451311,
+            "type": "SECTION_HEADER",
+            "title": "Параграф"
+        },
+        {
+            "isRequired": true,
+            "helpText": "",
+            "index": 1,
+            "id": 1260898393,
+            "type": "PARAGRAPH_TEXT",
+            "title": "Вопрос 5",
+            "points": 0
+        },
+        {
+            "isRequired": false,
+            "helpText": "",
+            "index": 2,
+            "id": 794656636,
+            "type": "TEXT",
+            "title": "Вопрос 4",
+            "points": 0
+        },
+        {
+            "isRequired": false,
+            "helpText": "",
+            "index": 3,
+            "id": 936025842,
+            "type": "LIST",
+            "title": "Вопрос 3",
+            "choices": [
+                "Вариант 1",
+                "Вариант 2",
+                "Вариант 3"
+            ],
+            "points": 0
+        },
+        {
+            "isRequired": false,
+            "helpText": "",
+            "index": 4,
+            "id": 257319077,
+            "hasOtherOption": false,
+            "type": "CHECKBOX",
+            "title": "Вопрос 2",
+            "choices": [
+                "Вариант 1",
+                "Вариант 2",
+                "Вариант 3"
+            ],
+            "points": 0
+        },
+        {
+            "isRequired": false,
+            "helpText": "",
+            "index": 5,
+            "id": 90051251,
+            "hasOtherOption": false,
+            "type": "MULTIPLE_CHOICE",
+            "title": "Вопрос 1",
+            "choices": [
+                "Вариант 1",
+                "Вариант 2",
+                "Вариант 3",
+                "Вариант 4"
+            ],
+            "points": 0
+        }
+    ]
+}

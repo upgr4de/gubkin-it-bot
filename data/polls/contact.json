@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "editUrl": "https://docs.google.com/forms/d/1gASXTTwp6ucQLtsc3s9rlteuuuked7C3IejZug3Xc4w/edit",
+        "editorEmails": [
+            "iflash926@gmail.com"
+        ],
+        "count": 3,
+        "description": "Чтобы связаться с нами, заполните свои данные",
+        "publishedUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeRTK2a5m-wAKILMZ3CS3I-SFrNRUXmgcsm11w31cIImfE2iQ/viewform",
+        "id": "1gASXTTwp6ucQLtsc3s9rlteuuuked7C3IejZug3Xc4w",
+        "customClosedFormMessage": "",
+        "title": "Контактная информация",
+        "confirmationMessage": ""
+    },
+    "items": [
+        {
+            "isRequired": true,
+            "helpText": "",
+            "index": 0,
+            "id": 668323897,
+            "type": "TEXT",
+            "title": "Имя",
+            "points": 0
+        },
+        {
+            "isRequired": true,
+            "helpText": "",
+            "index": 1,
+            "id": 769289555,
+            "type": "TEXT",
+            "title": "E-mail",
+            "points": 0
+        },
+        {
+            "isRequired": true,
+            "helpText": "",
+            "index": 2,
+            "id": 880246765,
+            "type": "PARAGRAPH_TEXT",
+            "title": "Сообщение",
+            "points": 0
+        }
+    ]
+}

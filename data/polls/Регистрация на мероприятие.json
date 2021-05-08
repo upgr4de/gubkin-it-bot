@@ -1,0 +1,98 @@
+{
+    "metadata": {
+        "editUrl": "https://docs.google.com/forms/d/1JVqZy6fhmBHIpvVdnpo13kL37jXROtPnkbTXb_CpQ8w/edit",
+        "editorEmails": [
+            "iflash926@gmail.com"
+        ],
+        "count": 7,
+        "description": "Даты: 4–6 января, 2022 г.\nАдрес: ул. Улица, д. 1, Город, 123456\nКонтакты: (+7) (000) 000-00-00, no_reply@example.com",
+        "publishedUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdfT7hez4gu01sbisgZGRaWr57sINnR2zqrWXqO6unPmkwBBA/viewform",
+        "id": "1JVqZy6fhmBHIpvVdnpo13kL37jXROtPnkbTXb_CpQ8w",
+        "customClosedFormMessage": "",
+        "title": "Регистрация на мероприятие",
+        "confirmationMessage": ""
+    },
+    "items": [
+        {
+            "isRequired": true,
+            "helpText": "",
+            "index": 0,
+            "id": 675595494,
+            "type": "TEXT",
+            "title": "Имя",
+            "points": 0
+        },
+        {
+            "isRequired": true,
+            "helpText": "",
+            "index": 1,
+            "id": 806473622,
+            "type": "TEXT",
+            "title": "E-mail",
+            "points": 0
+        },
+        {
+            "isRequired": true,
+            "helpText": "",
+            "index": 2,
+            "id": 1962245917,
+            "type": "TEXT",
+            "title": "Организация",
+            "points": 0
+        },
+        {
+            "isRequired": true,
+            "helpText": "",
+            "index": 3,
+            "id": 434290238,
+            "hasOtherOption": false,
+            "type": "CHECKBOX",
+            "title": "В какие дни вы будете присутствовать на мероприятии?",
+            "choices": [
+                "День 1",
+                "День 2",
+                "День 3"
+            ],
+            "points": 0
+        },
+        {
+            "isRequired": true,
+            "helpText": "",
+            "index": 4,
+            "id": 727449946,
+            "hasOtherOption": false,
+            "type": "MULTIPLE_CHOICE",
+            "title": "Требования к меню",
+            "choices": [
+                "Нет",
+                "Вегетарианские блюда",
+                "Веганские блюда",
+                "Кошерные блюда",
+                "Блюда без глютена"
+            ],
+            "points": 0
+        },
+        {
+            "isRequired": true,
+            "helpText": "",
+            "index": 5,
+            "id": 1090809154,
+            "hasOtherOption": false,
+            "type": "MULTIPLE_CHOICE",
+            "title": "Я понимаю, что по прибытии нужно будет оплатить взнос в размере Х руб.",
+            "choices": [
+                "Да"
+            ],
+            "points": 0
+        },
+        {
+            "isRequired": false,
+            "helpText": "",
+            "index": 6,
+            "id": 1058699604,
+            "type": "PARAGRAPH_TEXT",
+            "title": "Комментарий",
+            "points": 0
+        }
+    ]
+}
