@@ -1,1 +1,1 @@
-# Survey bot (using Google Forms API)
+# Telegram bot for take a surveys using Google Apps Script API
