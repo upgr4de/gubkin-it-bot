@@ -1,8 +1,8 @@
 # Ignore for public repo
-*/.env
-*/desktop_client_1.json
-*/google_token.pickle
-*/Procfile
+.env
+desktop_client_1.json
+google_token.pickle
+Procfile
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
