@@ -1,4 +1,4 @@
-# Telegram bot for take a surveys using Google Apps Script API
+# Telegram bot for take a surveys using Google Forms
 The basis of the project's structure was taken from here https://github.com/Latand/aiogram-bot-template (it is explained here https://www.youtube.com/watch?v=fob8oQOjB2Q&list=PLwVBSkoL97Q3phZRyInbM4lShvS1cBl-U&index=5&ab_channel=PhysicsisSimple)
 
 You should study work with Google API, for example, here https://habr.com/ru/post/485898/, here https://developers.google.com/apps-script/overview and here https://cloud.google.com/docs/overview
