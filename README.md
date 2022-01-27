@@ -4,10 +4,24 @@
     <img src="https://github.com/upgr4de/gubkin-it-bot/blob/master/logo.png">
 </p>
 
+## Telegram bot for take a surveys using Google Apps Script API
+
+The basis of the project's structure was taken from here https://github.com/Latand/aiogram-bot-template (it is explained here https://www.youtube.com/watch?v=fob8oQOjB2Q&list=PLwVBSkoL97Q3phZRyInbM4lShvS1cBl-U&index=5&ab_channel=PhysicsisSimple)
+
+You should study work with Google API, for example here https://habr.com/ru/post/485898/
+
+The following commands will be used in the chatbot:
+* /start - start the chat and greet the chatbot
+* /help
+* /polls - list of polls. Through the /polls command, users will be able to select a poll from the list and go through it, step by step answering the questions, as well as edit the answers. After passing the survey, the responses will be sent as a list (list in Python is an ordered mutable collection of objects of arbitrary types) to Google Forms
+* /contact - contact us form. The /contact command will have the same meaning (as /polls), but will immediately transfer the user to the poll to contact the administrators
+* /cancel
+* /admins command, which can only be used by chatbot administrators. Through the /admins command, it will be possible to download forms from the Google Forms service and add them to the general list of polls by inserting a link to the form, as well as delete unnecessary polls from this list. The form will be loaded as a JSON file and stored on the server
+
 First, you need to create a chatbot project folder (in this case - gubkin_it_bot). Then you need to configure the Google project (page 1 - Google Apps Script home page https://script.google.com/home, page 2 - Google Cloud Platform (Console) home page https://console.cloud.google.com/home):
 - go to page 2, create a new project
 - return to page 2, go to the "API and services" tab, then to the "OAuth consent screen" and set the "User Type" to "External
-- In the window that appears, fill in "App name" (in this case, gFormsRW).
+- In the window that appears, fill in "App name" (in this case, gFormsRW)
 - return to page 2 and copy the "Project number" from the "Project info" block
 - go to page 1, click "Create Project" and give it a name (in this case, gFormsRW)
 - write the script in this project (pic.2.1): the writeForm function writes answers (the answers variable) as a list into Google Forms, the form_url variable is the address of a Google form like https://docs.../edit, the readForm function returns the result (the result variable) into JSON, the getFormMetadata function returns the form metadata into JSON, the itemToObject function converts form.item into an object and returns the result (the data variable) with the requested fields into JSON
