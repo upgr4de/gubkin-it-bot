@@ -10,7 +10,7 @@ The basis of the project's structure was taken from here https://github.com/Lata
 
 You should study work with Google API, for example here https://habr.com/ru/post/485898/
 
-The following commands will be used in the chatbot:
+The following commands are used in the chatbot:
 * /start - start the chat and greet the chatbot
 * /help
 * /polls - list of polls. Through the /polls command, users will be able to select a poll from the list and go through it, step by step answering the questions, as well as edit the answers. After passing the survey, the responses will be sent as a list (list in Python is an ordered mutable collection of objects of arbitrary types) to Google Forms
