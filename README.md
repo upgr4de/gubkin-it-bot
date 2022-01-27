@@ -16,7 +16,7 @@ The following commands are used in the chatbot:
 * /polls - list of polls. Through the /polls command, users will be able to select a poll from the list and go through it, step by step answering the questions, as well as edit the answers. After passing the survey, the responses will be sent as a list (list in Python is an ordered mutable collection of objects of arbitrary types) to Google Forms
 * /contact - contact us form. The /contact command will have the same meaning (as /polls), but will immediately transfer the user to the poll to contact the administrators
 * /cancel
-* /admins command, which can only be used by chatbot administrators. Through the /admins command, it will be possible to download forms from the Google Forms service and add them to the general list of polls by inserting a link to the form, as well as delete unnecessary polls from this list. The form will be loaded as a JSON file and stored on the server
+* /admins - command, which can only be used by chatbot administrators. Through the /admins command, it will be possible to download forms from the Google Forms service and add them to the general list of polls by inserting a link to the form, as well as delete unnecessary polls from this list. The form will be loaded as a JSON file and stored on the server
 
 First, you need to create a chatbot project folder (in this case - gubkin_it_bot). Then you need to configure the Google project (page 1 - Google Apps Script home page https://script.google.com/home, page 2 - Google Cloud Platform (Console) home page https://console.cloud.google.com/home):
 - go to page 2, create a new project
